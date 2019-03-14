@@ -3,6 +3,9 @@ function panggilSplice() {
   console.log(kota);
 
   kota.splice(2, 0, "Marabahan");
+  //param1 = posisi/index elemen
+  //param2 = 0:false (jangan hapus); 1:true (hapus);
+  //param3 = elemen baru yang ditambahkan
 
 return kota;
 }
